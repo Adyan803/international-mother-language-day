@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    background: linear-gradient(125deg, #45bd57, #378d44, #45bd57, #80fb39, #00ff99);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+nav {
+    background: linear-gradient(125deg, #69ff80, #69ff80, #69ff80);
+    padding: 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+
+nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #00ff40;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 500ms;
+}
+nav button:hover {
+    background-color: #00ff99;
+    padding: 10px 21px;
+    color: rgb(35, 35, 35);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.main-content {
+    margin-top: 100px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: left;
+    height: 100vh; 
+    overflow-y: auto;
+    scroll-behavior: auto;
+    width: 100%;
+}
+
+
+
+.sticky-box {
+    margin: 50px auto; 
+    width: 1005px; 
+    min-height: fit-content; 
+    padding: 20px;
+    background: linear-gradient(125deg, #4caf50, #57ca5a, #69ff80);
+    color: linear-gradient(125deg, #848484, #b9b9b9, #ffffff);
+    font-size: 18px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms;
+}
+
+.sticky-box:hover {
+    margin: 50px auto; 
+    width: 1008px; 
+    min-height: fit-content; 
+    padding: 20px;
+    background: linear-gradient(125deg, #54c258, #60dd64, #5eff76);
+    color: linear-gradient(125deg, #848484, #b9b9b9, #ffffff);
+    font-size: 18px;
+    border-radius: 9px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #64ce97; 
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    color: white;
+}
+
+.img_deg{
+    float: top;
+}
